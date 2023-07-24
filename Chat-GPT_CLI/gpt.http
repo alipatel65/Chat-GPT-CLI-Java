@@ -1,0 +1,10 @@
+POST https://api.openai.com/v1/completions
+Content-Type: application/json
+Authorization: Bearer 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
+// IMPORTANT: The API Key above will not work for anyone, you must generate your own!!!
+    {
+      "model": "text-Ali_Patel-001",
+      "prompt": "What is the command to list all files in a directory on macOS?",
+      "temperature": 1,
+      "max_tokens": 100
+    }
